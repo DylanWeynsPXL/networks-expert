@@ -44,5 +44,5 @@ Open PowerShell als Administrator (rechtermuisknop op PowerShell > Als administr
 Stel het IP-adres en de gateway in:
 
 ```powershell
-    New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 172.16.16.10 -PrefixLength 26 -DefaultGateway 172.16.16.2
+New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 172.16.16.10 -PrefixLength 26 -DefaultGateway 172.16.16.2
 ```
